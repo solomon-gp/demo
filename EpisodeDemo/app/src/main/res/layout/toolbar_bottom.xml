@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar_bottom"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="?attr/colorButtonNormal"
+    android:layout_gravity="bottom|end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuItemBack"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="left"
+        android:background="@drawable/ic_reply_black_24dp"
+        android:clickable="true"
+        android:minHeight="27dp"
+        android:minWidth="27dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuItemHome"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_home_black_24dp"
+        android:clickable="true"
+        android:minHeight="27dp"
+        android:minWidth="27dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuItemList"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_insert_drive_file_black_24dp"
+        android:clickable="true"
+        android:layout_marginRight="10dp"
+        android:minHeight="27dp"
+        android:minWidth="27dp"/>
+
+</android.support.v7.widget.Toolbar>
